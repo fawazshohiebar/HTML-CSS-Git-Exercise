@@ -1,1 +1,37 @@
 /* Add your own CSS code below */
+span.heart{
+    color:#c85308;
+}
+ 
+
+@media screen and (min-width:992px) {
+    .hero__title{
+        font-size: 40px;
+    }
+    
+}
+.main-nav__list{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between ;
+    
+}
+
+@media screen and (min-width:767px) {
+    .site-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .views{
+        display: flex;
+        flex-direction: row;
+  
+    }
+    .view-list__item{
+        margin-left: 20px;
+    }
+    .views__all{
+        margin-left: 68%;
+    }
+}
